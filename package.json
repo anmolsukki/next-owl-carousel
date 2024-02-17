@@ -1,6 +1,6 @@
 {
   "name": "next-owl-carousel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Next Owl Carousel",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,10 @@
   ],
   "author": "anmolsukki",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anmolsukki/next-owl-carousel"
+  },
   "dependencies": {
     "@babel/cli": "^7.15.7",
     "@babel/core": "^7.15.8",
