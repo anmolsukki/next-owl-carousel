@@ -1,0 +1,28 @@
+{
+  "name": "next-owl-carousel",
+  "version": "1.0.0",
+  "description": "Next Owl Carousel",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel OwlCarousel.js --out-file index.js"
+  },
+  "keywords": [
+    "react",
+    "next",
+    "carousel",
+    "OwlCarousel",
+    "slider"
+  ],
+  "author": "anmolsukki",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "jquery": "^3.7.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
