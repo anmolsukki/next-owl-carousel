@@ -1,9 +1,6 @@
 /* eslint-disable */
 'use client';
 
-var $ = require('jquery');
-if (typeof window !== "undefined") window.$ = window.jQuery = require('jquery');
-
 !function(a, b, c, d) {
     function e(b, c) {
         this.settings = null,

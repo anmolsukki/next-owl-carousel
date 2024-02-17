@@ -1,11 +1,8 @@
 'use client';
 /* eslint-disable */
+import PropTypes from 'prop-types';
 import React from 'react';
 import { findDOMNode } from 'react-dom';
-import PropTypes from 'prop-types';
-
-var $ = require('jquery');
-if (typeof window !== "undefined") window.$ = window.jQuery = require('jquery');
 
 const owlCarouselOptions = {
 	core: [
