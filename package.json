@@ -1,6 +1,6 @@
 {
   "name": "next-owl-carousel",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Next Owl Carousel",
   "main": "index.js",
   "scripts": {
@@ -20,13 +20,15 @@
     "url": "https://github.com/anmolsukki/next-owl-carousel"
   },
   "homepage": "https://github.com/anmolsukki",
-  "dependencies": {
-    "@babel/cli": "^7.15.7",
-    "@babel/core": "^7.15.8",
-    "@babel/preset-env": "^7.15.8",
-    "@babel/preset-react": "^7.14.5",
+  "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@babel/preset-react": "^7.24.1",
     "jquery": "^3.7.1",
-    "prop-types": "^15.8.1",
+    "prop-types": "^15.8.1"
+  },
+  "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
