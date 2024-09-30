@@ -2,7 +2,7 @@
 /* eslint-disable */
 import PropTypes from 'prop-types';
 import React from 'react';
-import { findDOMNode } from 'react-dom';
+import $ from 'jquery';
 
 const owlCarouselOptions = {
 	core: [
@@ -72,6 +72,7 @@ const owlCarouselEvents = {
 class OwlCarousel extends React.Component {
 	constructor(props) {
 		super(props);
+		this.carouselRef = React.createRef();
 
 		this.next = () => this.$car.next();
 		this.prev = () => this.$car.prev();
@@ -105,6 +106,7 @@ class OwlCarousel extends React.Component {
 	init(options) {
 		let next = options.onTranslate;
 		options.onTranslate = this.onTranslate(next);
+		this.$node = $(this.carouselRef.current);
 		this.$node?.owlCarousel(options);
 		this.$car = this.$node.data('owl.carousel');
 	}
@@ -138,7 +140,7 @@ class OwlCarousel extends React.Component {
 	render() {
 		const {options, events, children, ...props} = this.props;
 		return (
-			<div ref={(item) => this.$node = $(findDOMNode(item))} className='owl-carousel owl-theme' {...props}>
+			<div ref={this.carouselRef} className='owl-carousel owl-theme' {...props}>
 				{children}
 			</div>
 		);
