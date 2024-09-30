@@ -4,7 +4,7 @@
   "description": "Next Owl Carousel",
   "main": "index.js",
   "scripts": {
-    "build": "./node_modules/.bin/babel OwlCarousel.js --out-file index.js"
+    "build": "babel OwlCarousel.js --out-file index.js"
   },
   "keywords": [
     "react",
@@ -17,7 +17,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/anmolsukki/next-owl-carousel"
+    "url": "git+https://github.com/anmolsukki/next-owl-carousel.git"
   },
   "homepage": "https://github.com/anmolsukki",
   "devDependencies": {
