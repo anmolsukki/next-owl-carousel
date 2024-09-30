@@ -37,10 +37,10 @@ const options = {
 ```jsx
 const events = {
   onDragged: function (event) {
-    console.log('====onDragged==>>', event);
+    console.log('====onDragged===>>', event);
   },
   onChanged: function (event) {
-    console.log('====onChanged==>>', event);
+    console.log('====onChanged===>>', event);
   },
 };
 ```
