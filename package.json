@@ -1,6 +1,6 @@
 {
   "name": "next-owl-carousel",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Next Owl Carousel",
   "main": "index.js",
   "scripts": {
@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "jquery": "^3.7.1",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   }
 }

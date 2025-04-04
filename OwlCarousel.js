@@ -139,9 +139,10 @@ class OwlCarousel extends React.Component {
 
 	render() {
 		const {options, events, children, ...props} = this.props;
+		const safeChildren = React.Children.toArray(children);
 		return (
 			<div ref={this.carouselRef} className='owl-carousel owl-theme' {...props}>
-				{children}
+				{safeChildren}
 			</div>
 		);
 	}
